@@ -61,7 +61,7 @@
             <a href="#"><img class="card-img-top" src="{{ asset('storage/'.$product->photo) }}" alt="" width="10px" height="250px"></a>
             <div class="card-body">
                 <h4 class="card-title">
-                    <a href="#">{{ $product->product_name }}</a>
+                    <a href="">{{ $product->product_name }}</a>
                 </h4>
                 <h5>₹ {{ $product->product_price }}</h5>
                <p class="card-text">{{ $product->desc }}</p>
@@ -74,6 +74,9 @@
             <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;&#128512;</small>
             </div>
+
+            
+              
         </div>
     </div>
     @endforeach
