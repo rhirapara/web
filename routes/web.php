@@ -32,3 +32,5 @@ Route::get('/products', [App\Http\Controllers\products::class, 'index'])->name('
 
 Route::resource('categories','App\Http\Controllers\CategoryController');
 Route::resource('products','App\Http\Controllers\products');
+
+//second cahnge for testing
